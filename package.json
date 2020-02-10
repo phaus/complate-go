@@ -1,0 +1,12 @@
+{
+    "scripts": {
+        "start": "npm run compile && node dist/bundle.js",
+        "compile": "faucet"
+    },
+    "dependencies": {
+        "complate-stream": "^0.16.9"
+    },
+    "devDependencies": {
+        "faucet-pipeline-jsx": "^2.0.10"
+    }
+}
